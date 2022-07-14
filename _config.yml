@@ -6,34 +6,23 @@ favicon: images/favicon.ico
 version: 2
 
 # Personal info
-name: Brett Harris
-title: Senior Network System Administrator
-email: brett.h@email.co.uk
-website: www.github.com/sproogen/resume-theme
+name: 최재송
+title: NodeJs & TypeScript 백엔드 개발자
+email: cjs5241@gmail.com
+phone: 010-3138-1106
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-twitter_username: facespics
-github_username:  sproogen
-# stackoverflow_username: "00000001"
-# dribbble_username: jekyll
-# facebook_username: jekyll
-# flickr_username: jekyll
-instagram_username: jameswgrant
-linkedin_username: jameswgrant
-# xing_username: jekyll
-# pinterest_username: jekyll
-youtube_username: globalmtb
-# googleplus_username: +jekyll
-# orcid_username: 0000-0000-0000-0000
+# twitter_username: facespics
+github_username: cjs1301
 
 # Additional icon links
-additional_links:
-- title: itsgoingto.be
-  icon: fas fa-globe
-  url: https://www.itsgoingto.be
+# additional_links:
+#     - title: itsgoingto.be
+#       icon: fas fa-globe
+#       url: https://www.itsgoingto.be
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
@@ -46,71 +35,152 @@ additional_links:
 
 # About Section
 # about_title: About Me
-about_profile_image: images/profile.jpg
+about_profile_image: images/profile.jpeg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
+    NodeJs & TypeScript 기반의 1년차 백엔드 개발자로 <mark>MAU 16만</mark> 서비스에서 API 개발 및 AWS 인프라 구축 등을 해왔습니다.
 
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+    OOP와 TDD를 서비스에 도입하기위해 노력하고 있으며,
+
+    <mark>업무자동화</mark> 및 좋은 <mark>개발팀 문화</mark>에 많은 관심이 있습니다
 
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: top-middle
-        title: Super awesome project
-        link: github.com/sproogen
-        # link_text: Project Website
-        additional_links:
-          - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-        description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+    - title: Experience # Title for the section
+      layout: list # Type of content section (list/text)
+      content:
+          - layout: left
+            title: 모라니크
+            link: https://app.moranique.com
+            # link_text: boringcompany.com
+            sub_title: 제품팀 | 백엔드 개발자
+            caption: 2022.03 - Present
+            quote: >
+                mau 16만, 50~60 중년여성 패션이커머스
+            description: | # this will include new lines to allow paragraphs
+                - Github Action CI/CD 자동화
+                - Strapi CMS 운영
+                - JS => TS, Express => NestJs, Serverless => ECS/Docker 이전
+                - PostMan 유료 => Swagger 이전
+                - 취소 / 반품 / 교환 개발
+          - layout: left
+            title: 노트하우
+            link: https://www.daehaktutor.com/
+            # link_text: boringcompany.com
+            sub_title: 백엔드 개발자
+            caption: 2022.01 - 2022.03
+            quote: >
+                대학 스터디 올인원 서비스
+            description: | # this will include new lines to allow paragraphs
+                - 대학생 인증 시스템 개발
+                - 서버리스 이전 AWS 비용 50%감소
+                - ELK 구축
+          - layout: left
+            title: 오픈메타
+            link: https://www.openmeta.city
+            # link_text: boringcompany.com
+            sub_title: 백엔드 개발자
+            caption: 2021.08 - 2022.01
+            quote: >
+                NFT 기반 가상 부동산 서비스
+            description: | # this will include new lines to allow paragraphs
+                - NFT 부동산 메타버스 (백엔드 100%)
+                - 마을이야기 페이 : 앱,관리자 페이지 서버개발(광진구 결제앱) (백엔드 100%)
+          - layout: left
+            title: Whywine(호스팅 종료)
+            link: https://www.whywine.co.kr
+            # link_text: boringcompany.com
+            sub_title: 코드스테이츠 파이널 프로젝트 (4인 / 4주) | 백엔드 개발자(팀장)
+            caption: 2021.04 - 2021.06
+            quote: >
+                당신의 취향에 맞는 최고의 와인을 추천해드립니다.
+            description: | # this will include new lines to allow paragraphs
+                - 초기 서버셋팅, Nginx https 셋팅
+                - passport 인증시스템 개발
+                - bcrypt를 사용한 회원정보 암호화 저장, 관리
+                - 회원 API 개발
+                - 프로젝트 최종 배포 및 배포관리
 
-  - title: Experience # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: The Boring Company
-        link: boringcompany.com
-        # link_text: boringcompany.com
-        sub_title: Senior Network System Administrator
-        caption: November 2017 - Present
-        quote: >
-          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
-        description: | # this will include new lines to allow paragraphs
-            Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
+    - title: Skill
+      layout: list
+      content:
+          - layout: left
+            title: Backend
+            description: | # this will include new lines to allow paragraphs
+                * NodeJS (TypeScript)
+                * NestJS, Express
+                * TypeORM, Sequelize, Mongoose
+                * Jest, Swagger
+                * IntelliJ, Visual Studio Code
+          - layout: left
+            title: DevOps
+            description: | # this will include new lines to allow paragraphs
+                * MySQL, MariaDB, PostgreSQL
+                * Github Action, AWS Code Deploy
+                * Serverless, ECS, Lambda@Edge, Elastic Cache (Redis), RDS (Aurora), S3, EC2, Cloud Watch
+                * Nginx
+                * Linux Ubuntu
+          - layout: left
+            title: Frontend
+            description: | # this will include new lines to allow paragraphs
+                * ES6
+                * React hooks
 
-  - title: Education # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: Harvard University
-        caption: 2010 - 2013
-        sub_title: BSc Computer Science
-        quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
-        description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+    # - title: Projects # Title for the section
+    #   layout: list # Type of content section (list/text)
+    #   content:
+    #       - layout: top-middle
+    #         title: Super awesome project
+    #         link: github.com/sproogen
+    #         # link_text: Project Website
+    #         additional_links:
+    #             - title: sproogen/modern-resume-theme
+    #               icon: fab fa-github
+    #               url: github.com/sproogen/modern-resume-theme
+    #             # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+    #             #   icon: fab fa-github
+    #             #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+    #         quote: >
+    #             This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+    #         description: | # this will include new lines to allow paragraphs
+    #             I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
 
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+    - title: Education # Title for the section
+      layout: list # Type of content section (list/text)
+      content:
+          - layout: left
+            title: 인프런
+            caption: 2021 -
+            sub_title: BSc Computer Science
+            quote: >
 
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+            description: | # this will include new lines to allow paragraphs
+                - 호돌맨 호돌맨의 요절복통 개발쇼 (SpringBoot, Vue.JS, AWS)
+                - 윤상석 탄탄한 백엔드 NestJS, 기초부터 심화까지
+                - 김영한 스프링 MVC 1편 - 백엔드 웹 개발 핵심 기술
+                - 김영한 스프링 핵심 원리 - 고급편
+                - 김영한 스프링 핵심 원리 - 기본편
+                - 오준석 Flutter 중급 - Http통신, 상태관리
+                - 오준석 Flutter 입문 - 안드로이드, iOS 개발을 한 번에
+                - 깊알못 C# 입문부터 안드로이드, 윈도우 앱(UWP) 동시에 만들기 with Xamarin Forms(자마린 폼즈) + Maui
+          - layout: left
+            title: F-Lab
+            caption: 2022.03 - 2022.05
+            sub_title: Java BackEnd 멘토링
+            quote: >
 
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+            description: | # this will include new lines to allow paragraphs
+                - 시니어 개발자들의 전문 학습방향 멘토링 서비스
+
+    # - title: A Little More About Me
+    #   layout: text
+    #   content: | # this will include new lines to allow paragraphs
+    #       Alongside my interests in networks and software engineering some of my other interests and hobbies are:
+    #       - Rock climbing
+    #       - Gaming
+    #       - Knitting
+    #       - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+
+    #       Look at this cool image
+    #       ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
 
 # Footer
 footer_show_references: true
@@ -120,8 +190,8 @@ footer_show_references: true
 remote_theme: sproogen/resume-theme
 
 sass:
-  sass_dir: _sass
-  style: compressed
+    sass_dir: _sass
+    style: compressed
 
 plugins:
- - jekyll-seo-tag
+    - jekyll-seo-tag
