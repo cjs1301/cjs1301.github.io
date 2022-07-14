@@ -30,7 +30,7 @@ github_username: cjs1301
 # Google Analytics and Tag Manager
 # Using more than one of these may cause issues with reporting
 # gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
+# gtag: "G-6CKKGMRTHC"
 # google_analytics: "UA-00000000-0"
 
 # About Section
@@ -44,6 +44,31 @@ about_content: | # this will include new lines to allow paragraphs
     <mark>업무자동화</mark> 및 좋은 <mark>개발팀 문화</mark>에 많은 관심이 있습니다
 
 content:
+    - title: Skill
+      layout: list
+      content:
+          - layout: left
+            title: Backend
+            description: | # this will include new lines to allow paragraphs
+                * NodeJS (TypeScript)
+                * NestJS, Express
+                * TypeORM, Sequelize, Mongoose
+                * Jest, Swagger
+                * IntelliJ, Visual Studio Code
+          - layout: left
+            title: DevOps
+            description: | # this will include new lines to allow paragraphs
+                * MySQL, MariaDB, PostgreSQL
+                * Github Action, AWS Code Deploy
+                * Serverless, ECS, Lambda@Edge, Elastic Cache (Redis), RDS (Aurora), S3, EC2, Cloud Watch
+                * Nginx
+                * Linux Ubuntu
+          - layout: left
+            title: Frontend
+            description: | # this will include new lines to allow paragraphs
+                * ES6
+                * React hooks
+
     - title: Experience # Title for the section
       layout: list # Type of content section (list/text)
       content:
@@ -58,7 +83,7 @@ content:
             description: | # this will include new lines to allow paragraphs
                 - Github Action CI/CD 자동화
                 - Strapi CMS 운영
-                - JS => TS, Express => NestJs, Serverless => ECS/Docker 이전
+                - Express => NestJs / Serverless => ECS/Docker 이전
                 - PostMan 유료 => Swagger 이전
                 - 취소 / 반품 / 교환 개발
           - layout: left
@@ -99,31 +124,6 @@ content:
                 - 회원 API 개발
                 - 프로젝트 최종 배포 및 배포관리
 
-    - title: Skill
-      layout: list
-      content:
-          - layout: left
-            title: Backend
-            description: | # this will include new lines to allow paragraphs
-                * NodeJS (TypeScript)
-                * NestJS, Express
-                * TypeORM, Sequelize, Mongoose
-                * Jest, Swagger
-                * IntelliJ, Visual Studio Code
-          - layout: left
-            title: DevOps
-            description: | # this will include new lines to allow paragraphs
-                * MySQL, MariaDB, PostgreSQL
-                * Github Action, AWS Code Deploy
-                * Serverless, ECS, Lambda@Edge, Elastic Cache (Redis), RDS (Aurora), S3, EC2, Cloud Watch
-                * Nginx
-                * Linux Ubuntu
-          - layout: left
-            title: Frontend
-            description: | # this will include new lines to allow paragraphs
-                * ES6
-                * React hooks
-
     # - title: Projects # Title for the section
     #   layout: list # Type of content section (list/text)
     #   content:
@@ -157,10 +157,7 @@ content:
                 - 윤상석 탄탄한 백엔드 NestJS, 기초부터 심화까지
                 - 김영한 스프링 MVC 1편 - 백엔드 웹 개발 핵심 기술
                 - 김영한 스프링 핵심 원리 - 고급편
-                - 김영한 스프링 핵심 원리 - 기본편
-                - 오준석 Flutter 중급 - Http통신, 상태관리
-                - 오준석 Flutter 입문 - 안드로이드, iOS 개발을 한 번에
-                - 깊알못 C# 입문부터 안드로이드, 윈도우 앱(UWP) 동시에 만들기 with Xamarin Forms(자마린 폼즈) + Maui
+                - 김영한 스프링 핵심 원리 - 기본편 등
           - layout: left
             title: F-Lab
             caption: 2022.03 - 2022.05
@@ -169,6 +166,29 @@ content:
 
             description: | # this will include new lines to allow paragraphs
                 - 시니어 개발자들의 전문 학습방향 멘토링 서비스
+          - layout: left
+            title: 메가존아이티
+            caption: 2021.03 - 2022.03
+            sub_title: 컴퓨터공학과(4년제 학점은행제)
+            quote: >
+
+            description: | # this will include new lines to allow paragraphs
+                - 수강한 과목  
+                네트워크, 데이터베이스, 시스템프로그래밍, 알고리즘,  
+                운영체제, 인공지능, 자료구조, 전자계산기 구조,  
+                C언어, 마이크로프로세서, 소프트웨어공학, 시스템분석설계,   
+                인터넷보안, 정보통신개론, 컴퓨터시스템
+          - layout: left
+            title: 코드스테이츠
+            caption: 2021.01 - 2021.06
+            sub_title: Advanced software engineering, Immersive program (27기 수료)
+            quote: >
+
+            description: | # this will include new lines to allow paragraphs
+                - Javascript 기반 Full-stack 과정(React, NodeJS, AWS 등)
+                - 자료 구조, 알고리즘, 인증, 배포
+                - Git work flow
+                - 페어 프로그래밍, 2번의 팀 프로젝트 진행
 
     # - title: A Little More About Me
     #   layout: text
