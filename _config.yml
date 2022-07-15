@@ -65,11 +65,6 @@ content:
                 * Serverless, ECS, Lambda@Edge, Elastic Cache (Redis), RDS (Aurora), S3, EC2, Cloud Watch
                 * Nginx
                 * Linux Ubuntu
-          - layout: left
-            title: Frontend
-            description: | # this will include new lines to allow paragraphs
-                * ES6
-                * React hooks
 
     - title: Experience # Title for the section
       layout: list # Type of content section (list/text)
