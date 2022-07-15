@@ -37,11 +37,13 @@ github_username: cjs1301
 # about_title: About Me
 about_profile_image: images/profile.jpeg
 about_content: | # this will include new lines to allow paragraphs
-    NodeJs & TypeScript 기반의 1년차 백엔드 개발자로 <mark>MAU 16만</mark> 서비스에서 API 개발 및 AWS 인프라 구축 등을 해왔습니다.
-
-    OOP와 TDD를 서비스에 도입하기위해 노력하고 있으며,
-
-    <mark>업무자동화</mark> 및 좋은 <mark>개발팀 문화</mark>에 많은 관심이 있습니다
+    웹/앱 서비스 백엔드 개발과 스타트업 개발자로서의 다양한 경험이 있습니다.  
+    Node.js, MySQL, Redis, AWS, Git, Linux 등을 사용하여 프로덕션 서비스를 설계, 개발, 운영한 경험으로  
+    확장성과 유지 보수성이 높은 백엔드 아키텍처와 패턴을 위해 언제나 고민하고 있습니다.  
+      
+    서비스 개발이란 결국 개발과 비즈니스와의 <mark>커뮤니케이션</mark>이 가장 중요하다고 생각하고 있습니다.  
+    능동적이고 적극적인 커뮤니케이션으로 문제 해결과 비즈니스 발전을 위해 뛰어듭니다.  
+    이러한 점을 바탕으로 더 좋은 개발자로서 성장하기 위해 더 치열하게 학습하고, 경험하고, 노력하고 있습니다.
 
 content:
     - title: Skill
@@ -83,8 +85,8 @@ content:
             description: | # this will include new lines to allow paragraphs
                 - Github Action CI/CD 자동화
                 - Strapi CMS 운영
-                - Express => NestJs / Serverless => ECS/Docker 이전
-                - PostMan 유료 => Swagger 이전
+                - Express -> NestJs / Serverless -> ECS/Docker 이전
+                - PostMan 유료 -> Swagger 이전
                 - 취소 / 반품 / 교환 개발
           - layout: left
             title: 노트하우
@@ -128,14 +130,14 @@ content:
     #   layout: list # Type of content section (list/text)
     #   content:
     #       - layout: top-middle
-    #         title: Super awesome project
+    #         title: 모라니크 인프라 운영
     #         link: github.com/sproogen
-    #         # link_text: Project Website
+    #         link_text: Project Website
     #         additional_links:
     #             - title: sproogen/modern-resume-theme
     #               icon: fab fa-github
     #               url: github.com/sproogen/modern-resume-theme
-    #             # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+    #             # - title: Github page for project (eg. sproogen/modern-resume-theme)
     #             #   icon: fab fa-github
     #             #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
     #         quote: >
