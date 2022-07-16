@@ -42,7 +42,7 @@ about_content: | # this will include new lines to allow paragraphs
     <mark>확장성</mark>과 <mark>유지 보수성</mark>이 높은 백엔드 아키텍처와 패턴을 위해 언제나 고민하고 있습니다.  
       
     서비스 개발이란 결국 개발과 비즈니스와의<mark>커뮤니케이션</mark>이 가장 중요하다고 생각하고 있습니다.  
-    이러한 점을 바탕으로 더 좋은 개발자로서 성장하기 위해 더 치열하게 학습하고, 경험하고, 노력하고 있습니다.
+    이러한 점을 바탕으로 더 좋은 개발자로서 성장하기 위해 학습하고, 경험하고, 노력하고 있습니다.
 
 content:
     - title: Skill
@@ -81,7 +81,7 @@ content:
                 - 인프라 운영
                 - Express -> NestJs 도입
                 - Lambda -> ECS/Fargate 이전
-                - 취소 / 반품 / 교환 개입
+                - 취소 / 반품 / 교환 개발
           - layout: left
             title: 노트하우
             link: https://www.daehaktutor.com/
@@ -92,8 +92,8 @@ content:
                 대학 스터디 올인원 서비스
             description: | # this will include new lines to allow paragraphs
                 - 대학생 인증 시스템 개발
-                - 서버리스 이전 AWS 비용 50%감소
-                - ELK 구축
+                - 서버리스 이전 AWS 비용 40%감소
+                - ELK 구축(활용 실패)
           - layout: left
             title: 오픈메타
             link: https://www.openmeta.city
@@ -123,32 +123,72 @@ content:
     - title: Projects # Title for the section
       layout: list # Type of content section (list/text)
       content:
-          - layout: top-middle
+          - layout: left
             title: 스타트업 인프라 운영
             link: github.com/cjs1301/diagrams/blob/main/moranique_infra_architecture.pdf
-            link_text: Architecture Diagram
-            # additional_links:
-            #     - title: sproogen/modern-resume-theme
-            #       icon: fab fa-github
-            #       url: github.com/sproogen/modern-resume-theme
-            quote: >
-                모라니크 (moranique)
+            link_text: Architecture Diagram Link
+            sub_title: 모라니크 (moranique)
             description: | # this will include new lines to allow paragraphs
                 - 적은 인력으로 빠른 서비스 개발을 위해 Clayful(Saas)과 오픈 소스(Strapi, Retool, Redash, Airflow) 등으로 구성되어 있습니다.
-                - AWS data tranfer 비용 할인을 위해 베스핀글로벌을 도입하여 <mark>30% 요금을 절감</mark>하였습니다.
-          #   - layout: top-middle
-          #     title: Lambda -> ECS/Fargate 이전
-          #     link: github.com/sproogen
-          #     link_text: Project Website
-          #     # additional_links:
-          #     #     - title: sproogen/modern-resume-theme
-          #     #       icon: fab fa-github
-          #     #       url: github.com/sproogen/modern-resume-theme
-          #     quote: >
-          #         모라니크 (moranique)
-          #     description: | # this will include new lines to allow paragraphs
-          #         - 도입계기
-
+                - AWS data tranfer 비용 할인을 위해 베스핀글로벌을 도입하여 <mark>30% 요금을 절감</mark>
+          - layout: left
+            title: Lambda -> ECS/Fargate 이전
+            sub_title: 모라니크 (moranique)
+            description: | # this will include new lines to allow paragraphs
+                - Lambda 환경 이해의 어려움(로컬 개발환경과 배포환경을 일치 시키기 어려움)
+                - 러닝커브가 높은 yml 작성(이해없이 설정한 환경을 prod에서 쓰기엔 불안함)
+          - layout: left
+            title: NestJs 도입
+            sub_title: 모라니크 (moranique)
+            description: | # this will include new lines to allow paragraphs
+                - 잘활용되지 않는 Postman대신 api 문서를 코드화하여 문서작성시간을 감소하기 위한 목적(Swagger)
+                - 소단위로 쪼개어져 찾기 힘들었던 백엔드 소스코드들을 한곳에 모아 매번 이용되던 코드와 미들웨어등을 묶어서 쓰기위한 목적(OOP,AOP)
+                - 미숙한 테스트코드 작성을 좀더 편하게 작성해보기 위한 목적
+                - 호출단위로 요금이 부과되는 Clayful(Saas)의 캐싱처리를 위한 백엔드 소스코드 통합
+          - layout: left
+            title: 취소 / 반품 / 교환 개발
+            sub_title: 모라니크 (moranique)
+            description: | # this will include new lines to allow paragraphs
+                - Clayful(Saas)에서 제공하지 않던 교환기능 부재를 해결
+                - 엑셀 시트를 활용하여 주문 정산관리를 하고 있던 운영 일부 자동화
+          - layout: left
+            title: 대학생 인증 시스템 개발
+            sub_title: 노트하우 (knotehow)
+            description: | # this will include new lines to allow paragraphs
+                - 이메일 인증
+                - 학생증 인증(구글비전으로 텍스트 DB화 및 회원정보 비교)
+          - layout: left
+            title: 서버리스 이전
+            sub_title: 노트하우 (knotehow)
+            description: | # this will include new lines to allow paragraphs
+                - 트래픽이 낮아 Api 호출횟수가 너무 적은점을 활용
+                - ec2에서 lambda로 모두 이전
+          - layout: left
+            title: 오픈메타 서비스 서버 개발
+            link: openmeta.city
+            link_text: Openmeta City Website Link
+            sub_title: 오픈메타 (openmeta)
+            description: | # this will include new lines to allow paragraphs
+                - 공공데이터 크롤링 자동화
+                - 지번 기반 폴리곤 데이터 도로명 기준 폴리곤으로 변환
+                - 트래픽 처리를 위한 로드밸런싱 구축, 오토스케일링
+                - 소셜 로그인 개발
+                - 백엔드 기여도 100%
+          - layout: left
+            title: 마일이야기 광진 페이 앱 서버 개발
+            additional_links:
+                - title: maelstory pay ios
+                  icon: fab fa-app-store
+                  url: https://apps.apple.com/kr/app/%EB%A7%88%EC%9D%84%EC%9D%B4%EC%95%BC%EA%B8%B0-%ED%8E%98%EC%9D%B4/id1597053678
+                - title: maelstory pay android
+                  icon: fab fa-android
+                  url: https://play.google.com/store/apps/details?id=net.maeulstory.pay
+            sub_title: 광진구 지역 결제 페이 앱
+            description: | # this will include new lines to allow paragraphs
+                - 기존 마을이야기 앱과 회원정보 연동 로그인 개발
+                - 결제 기능 개발
+                - 어드민 페이지 api 개발
+                - 백엔드 개발 기여도 100%
     - title: Education # Title for the section
       layout: list # Type of content section (list/text)
       content:
@@ -196,18 +236,6 @@ content:
                 - 자료 구조, 알고리즘, 인증, 배포
                 - Git work flow
                 - 페어 프로그래밍, 2번의 팀 프로젝트 진행
-
-    # - title: A Little More About Me
-    #   layout: text
-    #   content: | # this will include new lines to allow paragraphs
-    #       Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-    #       - Rock climbing
-    #       - Gaming
-    #       - Knitting
-    #       - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
-
-    #       Look at this cool image
-    #       ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
 
 # Footer
 footer_show_references: true
