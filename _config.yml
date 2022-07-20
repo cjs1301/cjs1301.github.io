@@ -173,7 +173,7 @@ content:
                 - 백엔드 기여도 100%
           - layout: top-middle
             border: weak
-            title: 마일이야기 광진 페이 앱 서버 개발
+            title: 마을이야기 광진 페이 앱 서버 개발
             additional_links:
                 - title: maelstory pay ios
                   icon: fab fa-app-store
