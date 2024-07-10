@@ -4,24 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="238d9d47-4520-4fbe-aae4-a642d4e03be5" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/content/2023-12-26-오디야?_개인정보처리방침.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/2023-12-26-오디야?_앱_설명.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/database/2024-03-07-데이터베이스_스터디1.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/database/2024-03-07-데이터베이스_스터디2.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/database/2024-03-14-데이터베이스_스터디3.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/favicon.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/favicon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatsby-config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatsby-site-meta-data.ts" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-site-meta-data.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/about.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/about.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/guestbook.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/guestbook.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/playground.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/playground.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/templates/post-template/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/post-template/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/templates/posts-template/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/posts-template/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/favicon.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/favicon.png" afterDir="false" />
-    </list>
+    <list default="true" id="238d9d47-4520-4fbe-aae4-a642d4e03be5" name="변경" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -90,7 +73,7 @@
       <option name="presentableId" value="Default" />
       <updated>1720593963789</updated>
       <workItem from="1720593966647" duration="6579000" />
-      <workItem from="1720602558522" duration="872000" />
+      <workItem from="1720602558522" duration="1073000" />
     </task>
     <servers />
   </component>
