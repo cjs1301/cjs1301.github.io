@@ -22,21 +22,21 @@ export default {
    */
   author: {
     name: `최재송`,
-    nickname: `단민`,
+    nickname: `Json`,
     stack: ['Backend', 'Spring', 'Java'],
     bio: {
       email: `cjs5241@gmail.com`,
       residence: 'Seoul, South Korea',
-      bachelorDegree: 'Kyunghee Univ. Computer Engineering (2018.03-2022.02)',
+      bachelorDegree: 'Academic Credit Bank System. Computer Engineering (2021.10-2023.12)',
     },
     social: {
       github: `https://github.com/cjs1301`,
-      linkedIn: `https://www.linkedin.com/in/jeonming-lee/`,
-      resume: `https://www.figma.com/file/dtkCl6G7G5DVe18DN2LWny/%EC%9D%B4%EC%A0%95%EB%AF%BC-%EC%9D%B4%EB%A0%A5%EC%84%9C?node-id=0%3A1`,
+      linkedIn: `https://www.linkedin.com/in/jaesong-choi/`,
+      resume: `https://jeasong.notion.site/8dff72f336644b088ff8c0f9d1a6150a`,
     },
     dropdown: {
-      tistory: 'https://danminblog.tistory.com/',
-      velog: 'https://velog.io/@danmin20',
+      tistory: '',
+      velog: '',
     },
   },
 

@@ -5,12 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="238d9d47-4520-4fbe-aae4-a642d4e03be5" name="변경" comment="">
+      <change afterPath="$PROJECT_DIR$/content/2023-12-26-오디야?_개인정보처리방침.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/2023-12-26-오디야?_앱_설명.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/database/2024-03-07-데이터베이스_스터디1.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/database/2024-03-07-데이터베이스_스터디2.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/database/2024-03-14-데이터베이스_스터디3.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.yarn/install-state.gz" beforeDir="false" afterPath="$PROJECT_DIR$/.yarn/install-state.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/favicon.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/favicon.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gatsby-config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatsby-ssr.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-ssr.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-site-meta-data.ts" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-site-meta-data.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/about.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/about.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/guestbook.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/guestbook.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/playground.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/playground.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/post-template/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/post-template/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/posts-template/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/posts-template/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/favicon.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/favicon.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,36 +37,40 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2j2nIsxpywVvlFgjhhj2UveeoPF" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "fix/FOUC",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/jeasoungchoi/Documents/study/cjs1301.github.io/static",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.standard": "",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "yarn",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "show.migrate.to.gradle.popup": "false",
-    "ts.external.directory.path": "/Users/jeasoungchoi/Documents/study/cjs1301.github.io/node_modules/typescript/lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/jeasoungchoi/Documents/study/cjs1301.github.io/content&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/jeasoungchoi/Documents/study/cjs1301.github.io/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/content" />
       <recent name="$PROJECT_DIR$/static" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/content/database" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -75,7 +89,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1720593963789</updated>
-      <workItem from="1720593966647" duration="4810000" />
+      <workItem from="1720593966647" duration="6579000" />
+      <workItem from="1720602558522" duration="872000" />
     </task>
     <servers />
   </component>

@@ -88,7 +88,7 @@ const config: GatsbyConfig = {
               }
             `,
             output: '/rss.xml',
-            title: 'jeong-min.com RSS Feed',
+            title: 'jaesong.me RSS Feed',
             match: '^/blog/',
             link: 'https://feeds.feedburner.com/gatsby/blog',
           },
@@ -105,8 +105,8 @@ const config: GatsbyConfig = {
     {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
-        host: 'https://jeong-min.com/',
-        sitemap: 'https://jeong-min.com/sitemap.xml',
+        host: 'https://jaesong.me/',
+        sitemap: 'https://jaesong.me/sitemap.xml',
         policy: [{ userAgent: '*', allow: '/' }],
       },
     },
