@@ -34,7 +34,7 @@ const config: GatsbyConfig = {
     {
       resolve: `gatsby-plugin-gtag`,
       options: {
-        trackingId: `GTM-WWZ2WZLG`,
+        trackingId: `G-9SWWT1FQRP`,
         head: true,
       },
     },
