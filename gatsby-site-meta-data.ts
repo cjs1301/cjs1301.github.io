@@ -32,7 +32,7 @@ export default {
     social: {
       github: `https://github.com/cjs1301`,
       linkedIn: `https://www.linkedin.com/in/jaesong-choi/`,
-      resume: `https://jeasong.notion.site/8dff72f336644b088ff8c0f9d1a6150a`,
+      resume: `https://1drv.ms/b/c/5e34dd4ecbda51be/Eb5R2stO3TQggF4tAQAAAAABwJXzlfQdnhjO8I9Qz5ondQ?e=G7uml9`,
     },
     dropdown: {
       tistory: '',
