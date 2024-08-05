@@ -32,7 +32,7 @@ export default {
     social: {
       github: `https://github.com/cjs1301`,
       linkedIn: `https://www.linkedin.com/in/jaesong-choi/`,
-      resume: `https://1drv.ms/b/c/5e34dd4ecbda51be/EcwKNNuEK-BPiJT0QFTjp5UB4FTh5-nChq5dF_9yL3D-ZQ?e=4S8LG5`,
+      resume: `https://online.fliphtml5.com/eilvi/cygi/`,
     },
     dropdown: {
       tistory: '',
